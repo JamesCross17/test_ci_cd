@@ -11,5 +11,5 @@ testing:
   stage: testing
   script:
     - echo "test unit"
-    -npm install
-    -npm test
+#    -npm install
+#    -npm test
