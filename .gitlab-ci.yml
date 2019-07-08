@@ -5,10 +5,11 @@ cache:
     - node_modules/
 
 stages:
-  - test
+  - testing
 
-test_async:
-  stage: test
+testing:
+  stage: testing
   script:
-  -npm install
-  -npm test
+    - echo "test unit"
+    -npm install
+    -npm test
