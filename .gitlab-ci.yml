@@ -10,6 +10,4 @@ stages:
 testing:
   stage: testing
   script:
-    - echo "test unit"
-#    -npm install
-#    -npm test
+    - node --version
