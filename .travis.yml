@@ -17,3 +17,9 @@ script:
 
 after_success:
   - yarn build
+deploy:
+  provider: releases
+  user: "stasrazuvanov@gmail.com"
+  password: "JamesCross07111970"
+  file: "build"
+  skip_cleanup: true
