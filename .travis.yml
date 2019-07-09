@@ -8,12 +8,19 @@ before_install:
 cache:
   yarn
 
-script:
-  yarn test
+jobs:
+  include:
+    - stage: testing
+      script:
+        - yarn test
+    - stage: deploy
+      script:
+        - yarn build
 
-after_success:
-  - yarn build
-
-deploy:
-  on:
-    branch: master
+stages:
+  - name: testing
+    # require the type to be a PR
+    if: type = pull_request
+  - name: deploy
+    # require the type to be push to master
+    if: type = push AND branch = master
