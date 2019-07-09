@@ -5,7 +5,7 @@ node_js:
 dist: trusty
 sudo: false
 deploy:
-  - provider: script
+  provider: releases
   api_key: "204aeb974e103725d34bb863e092d20676e4c556"
   file: build
   skip_cleanup: true
