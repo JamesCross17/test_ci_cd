@@ -8,19 +8,12 @@ before_install:
 cache:
   yarn
 
-jobs:
-  include:
-    - stage: testing
-      script:
-        - yarn test
-    - stage: deploy
-      script:
-        - yarn build
+script:
+  - echo 'Build starts!!'
+  - echo 'Installing Deps!'
+  - yarn
+  - echo 'Testing!'
+  - yarn test
 
-stages:
-  - name: testing
-  - name: deploy
-      provider: releases
-        user: "stasrazuvanov@gmail.com"
-        password: "JamesCross07111970"
-        file: "build"
+after_success:
+  - yarn build
