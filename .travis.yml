@@ -19,7 +19,8 @@ after_success:
   - yarn build
 deploy:
   provider: releases
-  github-token: "553ab82472467c676a23aa8b6cfa97a62a9164e1"
+  api_key:
+    secure: YOUR_API_KEY_ENCRYPTED"553ab82472467c676a23aa8b6cfa97a62a9164e1"
   file: build
   skip_cleanup: true
   target-branch: master
