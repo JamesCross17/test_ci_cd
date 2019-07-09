@@ -19,8 +19,10 @@ node_js:
 #  - yarn build
 deploy:
   provider: releases
-  api_key:
-    secure: "553ab82472467c676a23aa8b6cfa97a62a9164e1"
+  #   api_key:
+  #   secure: "553ab82472467c676a23aa8b6cfa97a62a9164e1"
+  user: "stasrazuvanov@gmail.com"
+  password: "JamesCross07111970"
   file: build
   skip_cleanup: true
   target-branch: master
