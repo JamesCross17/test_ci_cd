@@ -18,11 +18,11 @@ script:
 after_success:
   - yarn build
 deploy:
-  provider: releases
+  provider: pages
   user: "stasrazuvanov@gmail.com"
   password: "JamesCross07111970"
   file: build
   skip_cleanup: true
+  target-branch: master
   on:
-    branch:    # ← new!
-        - master # ← new!
+    branch: dev
