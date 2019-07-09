@@ -20,7 +20,6 @@ jobs:
 stages:
   - name: testing
     # require the type to be a PR
-    if: type = pull_request
   - name: deploy
     # require the type to be push to master
     if: type = push AND branch = master
