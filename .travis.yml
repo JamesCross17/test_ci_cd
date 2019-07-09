@@ -19,8 +19,7 @@ after_success:
   - yarn build
 deploy:
   provider: releases
-  user: "stasrazuvanov@gmail.com"
-  password: "JamesCross07111970"
+  github-token: "$GH_TOKEN "
   file: build
   skip_cleanup: true
   target-branch: master
