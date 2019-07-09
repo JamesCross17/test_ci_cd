@@ -1,8 +1,11 @@
 language: node_js
 node_js:
   - "10"
+
+dist: trusty
+sudo: false
 deploy:
-  provider: releases
+  - provider: script
   user: "stasrazuvanov@gmail.com"
   password: "JamesCross07111970"
   file: build
