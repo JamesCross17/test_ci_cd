@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="445">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -158,7 +158,7 @@
       <workItem from="1562576187296" duration="185000" />
       <workItem from="1562576408597" duration="3188000" />
       <workItem from="1562633766391" duration="37000" />
-      <workItem from="1562641177190" duration="5617000" />
+      <workItem from="1562641177190" duration="5786000" />
     </task>
     <task id="LOCAL-00001" summary="was added gitlab-ci.yml">
       <created>1562577439843</created>
@@ -265,11 +265,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562647174364</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="was added travis3">
+      <created>1562647637773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562647637773</updated>
+    </task>
+    <task id="LOCAL-00017" summary="was added travis3">
+      <created>1562647718555</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562647718555</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9027000" />
+    <option name="totallyTimeSpent" value="9196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
@@ -308,7 +322,8 @@
     <MESSAGE value="was added travis" />
     <MESSAGE value="was added travis1" />
     <MESSAGE value="was added travis2" />
-    <option name="LAST_COMMIT_MESSAGE" value="was added travis2" />
+    <MESSAGE value="was added travis3" />
+    <option name="LAST_COMMIT_MESSAGE" value="was added travis3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
@@ -340,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="445">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
