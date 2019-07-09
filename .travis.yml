@@ -6,8 +6,7 @@ dist: trusty
 sudo: false
 deploy:
   - provider: script
-  user: "stasrazuvanov@gmail.com"
-  password: "JamesCross07111970"
+  api_key: "204aeb974e103725d34bb863e092d20676e4c556"
   file: build
   skip_cleanup: true
   target-branch: master
