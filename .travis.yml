@@ -10,3 +10,10 @@ cache:
 
 script:
   yarn test
+
+after_success:
+  - yarn build
+
+deploy:
+  on:
+    branch: master
