@@ -22,6 +22,6 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN
   local_dir: build
-  target-branch: master
+  target-branch: stage
   on:
     branch: dev
