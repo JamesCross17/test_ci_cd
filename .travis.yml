@@ -1,12 +1,13 @@
 language: node_js
 node_js:
-  - "10"
+  - "stable"
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s
   - export PATH="$HOME/.yarn/bin:$PATH"
 cache:
-  yarn
+  directories:
+    - node_modules
 
 script:
   - echo 'Build starts!!'
@@ -14,15 +15,13 @@ script:
   - yarn
   - echo 'Testing!'
   - yarn test
-
-after_success:
   - yarn build
-  - push_build.sh
+
 deploy:
   provider: pages
-  api_key: "$GH_TOKEN"
-  file: /*
-#  skip_cleanup: true
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: build
 #  target-branch: master
   on:
     branch: dev
