@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a1dfcc3-08a5-4630-be54-a0d6575d5e7d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <workItem from="1562899098245" duration="1769000" />
       <workItem from="1563979055584" duration="1327000" />
       <workItem from="1564016115839" duration="605000" />
-      <workItem from="1564017924441" duration="855000" />
+      <workItem from="1564017924441" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="was added gitlab-ci.yml">
       <created>1562577439843</created>
@@ -407,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563982127434</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary=" &quot;homepage&quot;: &quot;.&quot;,">
+      <created>1564021331167</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1564021331167</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +452,7 @@
     <MESSAGE value="was added travis8" />
     <MESSAGE value="was added travis 10" />
     <MESSAGE value="was added travis 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="was added travis 12" />
+    <MESSAGE value=" &quot;homepage&quot;: &quot;.&quot;," />
+    <option name="LAST_COMMIT_MESSAGE" value=" &quot;homepage&quot;: &quot;.&quot;," />
   </component>
 </project>
