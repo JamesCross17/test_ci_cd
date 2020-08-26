@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1dfcc3-08a5-4630-be54-a0d6575d5e7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,14 +75,7 @@
       <workItem from="1563979055584" duration="1327000" />
       <workItem from="1564016115839" duration="605000" />
       <workItem from="1564017924441" duration="1547000" />
-      <workItem from="1598436231356" duration="8000" />
-    </task>
-    <task id="LOCAL-00002" summary="was added gitlab-ci.yml 1">
-      <created>1562577895862</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1562577895863</updated>
+      <workItem from="1598436231356" duration="162000" />
     </task>
     <task id="LOCAL-00003" summary="was added gitlab-ci.yml 2">
       <created>1562577965335</created>
@@ -421,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598264025655</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary=" &quot;homepage&quot;: &quot;.&quot;,">
+      <created>1598436246789</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1598436246789</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,13 +461,15 @@
     <option name="LAST_COMMIT_MESSAGE" value=" &quot;homepage&quot;: &quot;.&quot;," />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3945" y="110" key="CommitChangelistDialog2" timestamp="1598264025096">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state x="2025" y="110" key="CommitChangelistDialog2" timestamp="1598436246156">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2025" y="110" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598436246156" />
     <state x="3945" y="110" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1598264025096" />
-    <state x="3912" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598264031971">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state x="1992" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598436249287">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="1992" y="256" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598436249287" />
     <state x="3912" y="256" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1598264031971" />
   </component>
 </project>
